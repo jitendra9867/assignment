@@ -22,16 +22,16 @@ jQuery(document).ready(function () {
         cssEase: 'linear'
     });
 
-    $(".hamburger").click(function(){
+    $(".hamburger").click(function () {
         $(".hamburger").toggleClass("is-active");
         $(".primary-menu").toggleClass("menu-open");
         $("body").toggleClass("overflow-hidden");
-       
-         
-  });
+
+
+    });
 
     jQuery(".select-language").click(function () {
-        jQuery("choose-lang").toggleClass("show-lang");
+        jQuery(".choose-lang").toggleClass("show-lang");
     });
 
 });

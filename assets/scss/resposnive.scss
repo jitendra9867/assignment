@@ -229,6 +229,7 @@ ul.inline-flex.gap-50.primary-menu{display: none;}
   }
 
   .bg-hero-slider {
+    background-attachment: scroll;
     .home-banner-slider {
       .hero-slider {
         flex-wrap: wrap;
@@ -332,6 +333,7 @@ ul.inline-flex.gap-50.primary-menu{display: none;}
           height: 110px;
           ;
         }
+          &:hover:before{display: none;}
       }
 
     }

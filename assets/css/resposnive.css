@@ -272,6 +272,9 @@
   .header-block .position-absolute-header {
     padding: 15px 0px;
   }
+  .bg-hero-slider {
+    background-attachment: scroll;
+  }
   .bg-hero-slider .home-banner-slider .hero-slider {
     flex-wrap: wrap;
   }
@@ -343,6 +346,9 @@
   }
   .service-block .service-content .service-item .servive-icon-contain {
     height: 110px;
+  }
+  .service-block .service-content .service-item:hover:before {
+    display: none;
   }
 }
 
