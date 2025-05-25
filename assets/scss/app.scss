@@ -3,13 +3,15 @@
 .header-block {
     position: fixed;
     left: 0;
+
     right: 0;
     z-index: 111;
 
-    .position-absolute-header {
+
+    .position-absolute-header { 
         z-index: 1;
         position: relative;
-        padding: 25px 0px;
+        padding: 25px 0px; 
     }
 
     .nav-menu {
@@ -74,6 +76,17 @@
     }
 }
 
+
+   .header-fixed{
+            animation: slideDown 0.9s ease-out;
+    box-shadow: 0 5px 16px rgba(0, 0, 0, 0.1);
+
+  backdrop-filter: blur(10px);
+    }
+      .header-fixed{
+        .position-absolute-header{  padding: 12px 0px;}
+
+      }
 .bg-hero-slider {
     background: url('../images/banner/bannerbg.png') no-repeat;
     background-size: contain;

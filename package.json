@@ -4,11 +4,11 @@
   "description": "Jadoo Homepage",
   "main": "index.js",
   "scripts": {
-    "sass": "sass -w assets/scss/:assets/css"
+    "dev": "sass -w assets/scss/:assets/css"
   },
   "author": "Jitendra Nigam",
   "license": "ISC",
   "dependencies": {
     "sass": "^1.89.0"
-  }
+  } 
 }

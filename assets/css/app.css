@@ -102,6 +102,30 @@
   padding-top: 50px;
 }
 
+@-webkit-keyframes fadeinout {
+  0%, 100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+@keyframes fadeinout {
+  0%, 100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+@keyframes slideDown {
+  from {
+    transform: translateY(-100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
 .header-block {
   position: fixed;
   left: 0;
@@ -164,6 +188,16 @@
   text-decoration: none;
   font-family: "Google Sans";
   color: #212832;
+}
+
+.header-fixed {
+  animation: slideDown 0.9s ease-out;
+  box-shadow: 0 5px 16px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+}
+
+.header-fixed .position-absolute-header {
+  padding: 12px 0px;
 }
 
 .bg-hero-slider {
