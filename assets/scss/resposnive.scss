@@ -34,7 +34,37 @@
   }
 }
 
-
+@media(max-width:1400px){
+  .pd-top-50{padding-top: 70px;}
+  .bg-hero-slider{
+     .hero-content{
+      h1{
+        font-size: 70px;
+        line-height: 70px;
+        margin-bottom: 20px;
+      }
+      h4{
+        font-size: 16px;
+        margin-bottom: 15px;
+      }
+     }
+  }
+  .bg-hero-slider{
+     .hero-content{
+      max-width: 570px;
+     }
+  }
+  .padding-top-100{padding-top: 0px;}
+  .service-block{
+  .gap-50
+    {
+      gap: 15px;
+    }
+    .service-item{
+      padding: 15px;
+    }
+  }
+}
 @media (max-width:1024px) {
 
   .header-block {

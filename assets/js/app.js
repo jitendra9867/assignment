@@ -1,4 +1,5 @@
 jQuery(document).ready(function () {
+      //jQuery(".fade-in-out").fadeIn("slow");
     jQuery(window).scroll(function () {
         var scroll = jQuery(window).scrollTop();
 
@@ -35,3 +36,5 @@ jQuery(document).ready(function () {
     });
 
 });
+
+import { gsap } from "gsap";

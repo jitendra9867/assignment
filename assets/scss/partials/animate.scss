@@ -1,13 +1,12 @@
-@-webkit-keyframes fadeinout {
-  0%,100% { opacity: 0; }
-  50% { opacity: 1; }
-}
-
-@keyframes fadeinout {
-  0%,100% { opacity: 0; }
-  50% { opacity: 1; }
-}
-
+// This file contains animations used in the application
+ @keyframes fadeIn {
+        from {
+            opacity: 0; /* Start from fully transparent */
+        }
+        to {
+            opacity: 1; /* End at fully visible */
+        }
+    }
 @keyframes slideDown {
   from {
     transform: translateY(-100%);
