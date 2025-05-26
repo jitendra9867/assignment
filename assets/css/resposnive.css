@@ -406,6 +406,9 @@
     height: 100%;
     padding-top: 20px;
   }
+  .service-block .service-item img.imgploygon {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=resposnive.css.map */
