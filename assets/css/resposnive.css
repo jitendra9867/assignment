@@ -322,11 +322,11 @@
     background-attachment: scroll;
   }
   .bg-hero-slider .home-banner-slider .hero-slider {
+    padding-top: 30px;
     flex-wrap: wrap;
   }
   .bg-hero-slider .home-banner-slider .hero-slider .hero-content {
     max-width: 100%;
-    order: 2;
     text-align: center;
   }
   .bg-hero-slider .home-banner-slider .hero-slider .hero-content p {
@@ -338,8 +338,9 @@
     width: 100%;
   }
   .bg-hero-slider .home-banner-slider .hero-content h1 {
-    font-size: 45px;
-    line-height: 50px;
+    font-size: 40px;
+    line-height: 45px;
+    margin-bottom: 20px;
   }
   .bg-hero-slider .home-banner-slider .hero-content h1 span:before {
     bottom: 0;
@@ -347,8 +348,9 @@
     left: 0;
   }
   .bg-hero-slider .home-banner-slider .hero-content .hero-btn {
-    justify-content: space-between;
-    gap: 20px;
+    justify-content: space-around;
+    gap: 0;
+    margin-bottom: 50px;
   }
   .bg-hero-slider .home-banner-slider .hero-content .hero-btn a:first-child {
     font-size: 16px;

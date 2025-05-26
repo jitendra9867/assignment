@@ -263,11 +263,12 @@ ul.inline-flex.gap-50.primary-menu{display: none;}
     background-attachment: scroll;
     .home-banner-slider {
       .hero-slider {
+                padding-top: 30px;
         flex-wrap: wrap;
 
         .hero-content {
           max-width: 100%;
-          order: 2;
+       
           text-align: center;
 
           p {
@@ -288,8 +289,9 @@ ul.inline-flex.gap-50.primary-menu{display: none;}
 
       .hero-content {
         h1 {
-          font-size: 45px;
-          line-height: 50px;
+         font-size: 40px;
+        line-height: 45px;
+        margin-bottom: 20px;
 
           span {
             &:before {
@@ -301,8 +303,9 @@ ul.inline-flex.gap-50.primary-menu{display: none;}
           }
         }
         .hero-btn{
-              justify-content: space-between;
-               gap: 20px;
+                     justify-content: space-around;
+        gap: 0;
+        margin-bottom: 50px;
         a:first-child{
           font-size: 16px;
           padding: 18px 20px;
