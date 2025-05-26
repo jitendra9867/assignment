@@ -104,10 +104,10 @@
 
 @keyframes fadeIn {
   from {
-    opacity: 0; /* Start from fully transparent */
+    opacity: 0;
   }
   to {
-    opacity: 1; /* End at fully visible */
+    opacity: 1;
   }
 }
 @keyframes slideDown {

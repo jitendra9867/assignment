@@ -104,10 +104,10 @@
 
 @keyframes fadeIn {
   from {
-    opacity: 0; /* Start from fully transparent */
+    opacity: 0;
   }
   to {
-    opacity: 1; /* End at fully visible */
+    opacity: 1;
   }
 }
 @keyframes slideDown {
@@ -391,6 +391,15 @@
   }
   .service-block .service-content .service-item:hover:before {
     display: none;
+  }
+  .bg-hero-slider .home-banner-slider .hero-slider {
+    height: 100%;
+  }
+  .bg-hero-slider .home-banner-slider .slick-track {
+    height: 100%;
+  }
+  .hero-banner.w-100 {
+    padding-top: 68px;
   }
 }
 

@@ -234,6 +234,7 @@ ul.inline-flex.gap-50.primary-menu{display: none;}
 
 @media (max-width:767px) {
 
+
   .service-item {
 
     width: 100%;
@@ -369,6 +370,8 @@ ul.inline-flex.gap-50.primary-menu{display: none;}
     }
   }
 
-
+.bg-hero-slider .home-banner-slider .hero-slider{height: 100%;}
+.bg-hero-slider .home-banner-slider .slick-track{height: 100%;}
+.hero-banner.w-100{padding-top: 68px;}
 
 }
